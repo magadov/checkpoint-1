@@ -1,12 +1,37 @@
 body {
 	background-color: #e8e8e4;
+	font-family: 'Montserrat', sans-serif;
+	
 }
 
 h1 {
 	color: #575F7D;
 	font-weight: 800;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 .ava {
 	width: 150px;
+}
+
+h3 {
+	
+	
+}
+a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #6B72E1;
+	font-size: 16px;
+}
+	a:visiteed {
+		color: #800080;
+	}
+	a:hover {
+		color: black;
+	} 
+}
+
+.ul:hover {
+	color: black;
+
 }
