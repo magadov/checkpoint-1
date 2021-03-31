@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+	text-align: center;
 	color: #575F7D;
 	font-weight: 800;
 	margin-top: 20px;
@@ -14,8 +15,8 @@ h1 {
 }
 
 h3 {
-	
-	
+	text-align: center;
+	color: lightblue;
 }
 a {
 	text-decoration: none;
@@ -23,15 +24,53 @@ a {
 	color: #6B72E1;
 	font-size: 16px;
 }
-	a:visiteed {
-		color: #800080;
-	}
 	a:hover {
 		color: black;
 	} 
+
+
+#cont {
+	width: 700px;
+	margin: auto;
+	margin-top: 40px;
 }
 
-.ul:hover {
-	color: black;
-
+.card {
+	margin-bottom: 20px; 
+	background-color: white;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+	padding: 30px;
+	text-align: center;
 }
+
+
+.button {
+	margin: auto;
+	width: 150px;
+	color: white;
+	background-color: #6B72E1;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 10px;
+}
+	.button:hover {
+		color: white;
+		background-color: black;
+		
+	}
+
+
+ul {
+	width: 200px;
+	list-style-type: none;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+i {
+	font-size: 50px;
+}
+
+
